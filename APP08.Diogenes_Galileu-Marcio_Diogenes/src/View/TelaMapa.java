@@ -40,6 +40,7 @@ public class TelaMapa extends javax.swing.JFrame {
     private void initComponents() {
 
         uJPanelImagem2 = new componentes.UJPanelImagem();
+        jLabel1 = new javax.swing.JLabel();
         jlOrigem = new javax.swing.JLabel();
         jlDestino = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox();
@@ -57,15 +58,23 @@ public class TelaMapa extends javax.swing.JFrame {
 
         uJPanelImagem2.setImagem(new java.io.File("C:\\Users\\Marcio\\Documents\\NetBeansProjects\\GrafosSP\\APP08.Diogenes_Galileu-Marcio_Diogenes\\src\\Imagens\\mapaBase.png"));
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
+
         javax.swing.GroupLayout uJPanelImagem2Layout = new javax.swing.GroupLayout(uJPanelImagem2);
         uJPanelImagem2.setLayout(uJPanelImagem2Layout);
         uJPanelImagem2Layout.setHorizontalGroup(
             uJPanelImagem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 640, Short.MAX_VALUE)
+            .addGroup(uJPanelImagem2Layout.createSequentialGroup()
+                .addGap(148, 148, 148)
+                .addComponent(jLabel1)
+                .addContainerGap(458, Short.MAX_VALUE))
         );
         uJPanelImagem2Layout.setVerticalGroup(
             uJPanelImagem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 452, Short.MAX_VALUE)
+            .addGroup(uJPanelImagem2Layout.createSequentialGroup()
+                .addGap(205, 205, 205)
+                .addComponent(jLabel1)
+                .addContainerGap(233, Short.MAX_VALUE))
         );
 
         jlOrigem.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
@@ -195,7 +204,7 @@ public class TelaMapa extends javax.swing.JFrame {
                                 .addComponent(jbLargura)
                                 .addGap(20, 20, 20)
                                 .addComponent(jbLimpar)))
-                        .addGap(0, 7, Short.MAX_VALUE))
+                        .addGap(0, 5, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(18, 18, 18)
                         .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
@@ -244,6 +253,7 @@ public class TelaMapa extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JComboBox jComboBox1;
     private javax.swing.JComboBox jComboBox2;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JButton jbCaminhoMinimo;
