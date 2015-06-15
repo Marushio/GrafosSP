@@ -39,8 +39,17 @@ public class TelaMapa extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jlCidade9 = new javax.swing.JLabel();
         uJPanelImagem2 = new componentes.UJPanelImagem();
-        jLabel1 = new javax.swing.JLabel();
+        jlCidade0 = new javax.swing.JLabel();
+        jlCidade1 = new javax.swing.JLabel();
+        jlCidade2 = new javax.swing.JLabel();
+        jlCidade3 = new javax.swing.JLabel();
+        jlCidade4 = new javax.swing.JLabel();
+        jlCidade5 = new javax.swing.JLabel();
+        jlCidade6 = new javax.swing.JLabel();
+        jlCidade7 = new javax.swing.JLabel();
+        jlCidade8 = new javax.swing.JLabel();
         jlOrigem = new javax.swing.JLabel();
         jlDestino = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox();
@@ -54,27 +63,105 @@ public class TelaMapa extends javax.swing.JFrame {
         jlCaminhoMinimo = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
+        jlCidade9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
+        jlCidade9.setText("Santos");
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         uJPanelImagem2.setImagem(new java.io.File("C:\\Users\\Marcio\\Documents\\NetBeansProjects\\GrafosSP\\APP08.Diogenes_Galileu-Marcio_Diogenes\\src\\Imagens\\mapaBase.png"));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
+        jlCidade0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
+        jlCidade0.setText("Araraquara");
+
+        jlCidade1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
+        jlCidade1.setText("Araçatuba");
+
+        jlCidade2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
+        jlCidade2.setText("Bauru");
+
+        jlCidade3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
+        jlCidade3.setText("Campinas");
+
+        jlCidade4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
+        jlCidade4.setText("Marilia");
+
+        jlCidade5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
+        jlCidade5.setText("Piracicaba");
+
+        jlCidade6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
+        jlCidade6.setText("Santos");
+
+        jlCidade7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
+        jlCidade7.setText("Sorocaba");
+
+        jlCidade8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
+        jlCidade8.setText("Presidente Prudente");
 
         javax.swing.GroupLayout uJPanelImagem2Layout = new javax.swing.GroupLayout(uJPanelImagem2);
         uJPanelImagem2.setLayout(uJPanelImagem2Layout);
         uJPanelImagem2Layout.setHorizontalGroup(
             uJPanelImagem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(uJPanelImagem2Layout.createSequentialGroup()
-                .addGap(148, 148, 148)
-                .addComponent(jLabel1)
-                .addContainerGap(458, Short.MAX_VALUE))
+                .addGroup(uJPanelImagem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(uJPanelImagem2Layout.createSequentialGroup()
+                        .addGap(294, 294, 294)
+                        .addComponent(jlCidade2, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(uJPanelImagem2Layout.createSequentialGroup()
+                        .addGap(209, 209, 209)
+                        .addComponent(jlCidade1))
+                    .addGroup(uJPanelImagem2Layout.createSequentialGroup()
+                        .addGap(255, 255, 255)
+                        .addComponent(jlCidade4)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, uJPanelImagem2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(uJPanelImagem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, uJPanelImagem2Layout.createSequentialGroup()
+                        .addComponent(jlCidade0)
+                        .addGap(213, 213, 213))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, uJPanelImagem2Layout.createSequentialGroup()
+                        .addGroup(uJPanelImagem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jlCidade6)
+                            .addGroup(uJPanelImagem2Layout.createSequentialGroup()
+                                .addComponent(jlCidade7)
+                                .addGap(32, 32, 32)
+                                .addComponent(jlCidade3, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(139, 139, 139))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, uJPanelImagem2Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jlCidade5)
+                .addGap(233, 233, 233))
+            .addGroup(uJPanelImagem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(uJPanelImagem2Layout.createSequentialGroup()
+                    .addGap(117, 117, 117)
+                    .addComponent(jlCidade8)
+                    .addContainerGap(460, Short.MAX_VALUE)))
         );
         uJPanelImagem2Layout.setVerticalGroup(
             uJPanelImagem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(uJPanelImagem2Layout.createSequentialGroup()
-                .addGap(205, 205, 205)
-                .addComponent(jLabel1)
-                .addContainerGap(233, Short.MAX_VALUE))
+                .addGap(133, 133, 133)
+                .addComponent(jlCidade1)
+                .addGap(45, 45, 45)
+                .addComponent(jlCidade0)
+                .addGap(18, 18, 18)
+                .addComponent(jlCidade4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jlCidade2)
+                .addGap(2, 2, 2)
+                .addComponent(jlCidade5)
+                .addGap(18, 18, 18)
+                .addGroup(uJPanelImagem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jlCidade7)
+                    .addComponent(jlCidade3))
+                .addGap(27, 27, 27)
+                .addComponent(jlCidade6, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(125, Short.MAX_VALUE))
+            .addGroup(uJPanelImagem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(uJPanelImagem2Layout.createSequentialGroup()
+                    .addGap(204, 204, 204)
+                    .addComponent(jlCidade8, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(257, Short.MAX_VALUE)))
         );
 
         jlOrigem.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
@@ -150,9 +237,6 @@ public class TelaMapa extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(uJPanelImagem2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
@@ -175,16 +259,18 @@ public class TelaMapa extends javax.swing.JFrame {
                             .addComponent(jbProfundidade))
                         .addGap(18, 18, 18)
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addContainerGap(69, Short.MAX_VALUE))))
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(uJPanelImagem2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(uJPanelImagem2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton1)))
+                .addComponent(uJPanelImagem2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jButton1)
+                .addGap(467, 467, 467)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -204,7 +290,7 @@ public class TelaMapa extends javax.swing.JFrame {
                                 .addComponent(jbLargura)
                                 .addGap(20, 20, 20)
                                 .addComponent(jbLimpar)))
-                        .addGap(0, 5, Short.MAX_VALUE))
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(18, 18, 18)
                         .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
@@ -253,7 +339,6 @@ public class TelaMapa extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JComboBox jComboBox1;
     private javax.swing.JComboBox jComboBox2;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JButton jbCaminhoMinimo;
@@ -261,6 +346,16 @@ public class TelaMapa extends javax.swing.JFrame {
     private javax.swing.JButton jbLimpar;
     private javax.swing.JButton jbProfundidade;
     private javax.swing.JLabel jlCaminhoMinimo;
+    private javax.swing.JLabel jlCidade0;
+    private javax.swing.JLabel jlCidade1;
+    private javax.swing.JLabel jlCidade2;
+    private javax.swing.JLabel jlCidade3;
+    private javax.swing.JLabel jlCidade4;
+    private javax.swing.JLabel jlCidade5;
+    private javax.swing.JLabel jlCidade6;
+    private javax.swing.JLabel jlCidade7;
+    private javax.swing.JLabel jlCidade8;
+    private javax.swing.JLabel jlCidade9;
     private javax.swing.JLabel jlDestino;
     private javax.swing.JLabel jlOrigem;
     private componentes.UJPanelImagem uJPanelImagem2;
