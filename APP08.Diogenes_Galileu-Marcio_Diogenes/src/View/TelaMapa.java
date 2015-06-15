@@ -68,7 +68,7 @@ public class TelaMapa extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        uJPanelImagem2.setImagem(new java.io.File("C:\\Users\\Marcio\\Documents\\NetBeansProjects\\GrafosSP\\APP08.Diogenes_Galileu-Marcio_Diogenes\\src\\Imagens\\mapaBase.png"));
+        uJPanelImagem2.setImagem(new java.io.File("C:\\Program Files\\NetBeans 8.0\\Imagens\\mapaBase.png"));
 
         jlCidade0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/vertice03.png"))); // NOI18N
         jlCidade0.setText("Araraquara");
@@ -151,9 +151,9 @@ public class TelaMapa extends javax.swing.JFrame {
                 .addGap(2, 2, 2)
                 .addComponent(jlCidade5)
                 .addGap(18, 18, 18)
-                .addGroup(uJPanelImagem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jlCidade7)
-                    .addComponent(jlCidade3))
+                .addGroup(uJPanelImagem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jlCidade3, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jlCidade7))
                 .addGap(27, 27, 27)
                 .addComponent(jlCidade6, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(125, Short.MAX_VALUE))
