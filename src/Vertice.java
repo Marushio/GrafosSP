@@ -7,6 +7,13 @@ public class Vertice {
 	private int vertical;
 	private int horizontal;
 	
+	public void Vertice(){
+		nome = "Sem nome";
+		cor = Color.black;
+		vertical = 0;
+		horizontal =0;	
+	}
+	
 	public Color getCor(){
 		return cor;
 	}

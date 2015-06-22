@@ -24,7 +24,10 @@ public class DrawLines extends JPanel{
     		g.fillOval(vertice.getHorizontal(),vertice.getVertical(), 16,16);
     	}
     }
-    public void novoPonto(Vertice vetice){
+    public void novoPonto(int horizontal, int vertical){
+    	Vertice vetice = new Vertice();
+    	vetice.setHorizontal(horizontal);
+    	vetice.setVertical(vertical);
     	vetVetice.add(vetice);	
     }
     
