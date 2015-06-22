@@ -6,13 +6,15 @@ import javax.swing.JFrame;
 	public class Lines {
 		static JFrame frame;
 		static DrawLines panel;
-		 //adiciona os pontos
+		 
 	
         public static void zeraMapa(){
-        	panel.novoPonto(20,20);
-	        panel.novoPonto(80,20);
-	        panel.novoPonto(100,20);
-	        panel.novaAresta(20+8, 20+8, 80+8, 20+8);
+        	//adiciona os vetices
+        	panel.novoPonto("nome",20,20);
+	        panel.novoPonto("nome",80,20);
+	        panel.novoPonto("nome",100,20);
+	        //adiciona as arestas
+	        panel.novaAresta("nome",20+8, 20+8, 80+8, 20+8);
         }		
 	    public static void main(String[] args) {
 	    	frame= new JFrame("Mapa de São Paulo");

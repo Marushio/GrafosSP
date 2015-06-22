@@ -38,14 +38,16 @@ public class DrawLines extends JPanel{
     	
     	
     }
-    public void novoPonto(int horizontal, int vertical){
-    	Vertice vetice = new Vertice();
-    	vetice.setHorizontal(horizontal);
-    	vetice.setVertical(vertical);
-    	vetVetice.add(vetice);	
+    public void novoPonto(String nome,int horizontal, int vertical){
+    	Vertice vertice = new Vertice();
+    	vertice.setNome(nome);
+    	vertice.setHorizontal(horizontal);
+    	vertice.setVertical(vertical);
+    	vetVetice.add(vertice);	
     }
-    public void novaAresta(int verticalInicio, int horizontalInicio,int verticalFim, int horizontalFim){
+    public void novaAresta(String nome,int verticalInicio, int horizontalInicio,int verticalFim, int horizontalFim){
     	Aresta aresta = new Aresta();
+    	aresta.setNome(nome);
     	aresta.setHorizontalInicio(horizontalInicio);
     	aresta.setVerticalInicio(verticalInicio);
     	aresta.setHorizontalFim(horizontalFim);
