@@ -24,11 +24,13 @@ public class DrawLines extends JPanel{
     	for (int i=0;i<vetVetice.size();i++){
     		Vertice vertice =vetVetice.get(i);
     		g.setColor(vertice.getCor());  
-    		g.fillOval(vertice.getHorizontal(),vertice.getVertical(), 16,16);
+    		g.fillOval(vertice.getHorizontal(),vertice.getVertical(), 10,10);
     	}
-    	Graphics2D g2d = (Graphics2D) g.create();
-    	g2d.setStroke(new BasicStroke((float)4.0));
+    	
+    	//desenha as arestas 
     	for (int i=0;i<vetAresta.size();i++){
+    		Graphics2D g2d = (Graphics2D) g.create();
+    		g2d.setStroke(new BasicStroke((float)3.5));
     		Aresta aresta =vetAresta.get(i);
     		g2d.setColor(aresta.getCor());
     		g2d.drawLine(aresta.getVerticalInicio(), aresta.getHorizontalInicio(), aresta.getVerticalFim(),aresta.getHorizontalFim());
