@@ -56,4 +56,8 @@ public class DrawLines extends JPanel{
     	aresta.setVerticalFim(verticalFim);
     	vetAresta.add(aresta);
     } 	
+    public ArrayList<Vertice> getVetVetice(){
+    	return vetVetice;
+    	
+    }
 }

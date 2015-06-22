@@ -14,6 +14,8 @@ public class Vertice {
 		horizontal =0;	
 	}
 	
+    
+    
 	public Color getCor(){
 		return cor;
 	}
@@ -51,4 +53,8 @@ public class Vertice {
   	
       	this.horizontal=horizontal;
     } 
+    @Override 
+    public String toString() {
+        return nome;
+    }
 }
